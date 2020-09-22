@@ -1,0 +1,176 @@
+body{
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat',sans-serif;
+  }
+  h3{
+    padding-top: 2rem;
+  }
+  p{
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    color: grey;
+   }
+
+  .about-content{
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    color: #000000;
+  }
+
+  .about-para{
+    font-size: 20px;
+    font-family: 'Ubuntu';
+    color: #000000;
+  }
+   /* Navigation Bar */
+   .navbar{
+     padding: 0 0 4.5rem;
+     font-size: 1.5rem;
+   }
+
+   .navbar-brand{
+     font-size: 2.5rem;
+     font-family:'Ubuntu';
+     font-weight: bold;
+   }
+
+   #donatenb{
+     padding-bottom: 2rem;
+   }
+
+   .nav-link{
+     font-family: 'Ubuntu';
+     font-size: 1.2rem;
+   }
+   .nav-item{
+     padding: 0 18px;
+   }
+   /* Donate Button */
+ .donate-button{
+   margin: 5% 3% 5% 0;
+   background-color: #222831;
+ }
+
+ .d-button{
+   margin: 5% 3% 5% 0;
+ }
+
+   /* Headings */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Title Section */
+
+.title-image{
+width: 85%;
+/* transform: rotate(25deg); */
+position: absolute;
+right: -5%;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+#title1 .container-fluid{
+  padding: 3% 15% 1%;
+  text-align: left;
+}
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+.colored-section{
+  background-color: #9d65c9;
+  color: #fff;
+}
+.white-section{
+  background-color: #f3e6e3;
+}
+
+
+/* Pricing Section*/
+#pricing{
+  padding: 100px;
+}
+.price-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+/* Testimonial Section */
+#testimonials{
+  background-color: #d789d7;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img{
+  width: 40%;
+  /* border-radius: 100%; */
+  margin: 20px;
+}
+/* Features */
+#features{
+  position: relative;
+  z-index: 1;
+}
+.featre-title{
+  font-size: 1.5rem;
+}
+.feature-box{
+    padding: 4.5%;
+}
+
+.icon{
+  font-size: 3rem;
+  color: #9d65c9;
+}
+.icon:hover{
+  color: #d789d7;
+}
+#press{
+  background-color: #9d65c9;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+      .title-image{
+        position: static;
+        transform: rotate(0);
+      }
+}
+  .social-icon{
+    margin: 20px 10px;
+  }
+
+
+.icons{
+  color: #000000;
+}
+
+.about{
+  flex-wrap: center;
+  align-content: center;
+}
+
+#successdiv{
+  height: 450px;
+}
