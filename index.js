@@ -53,8 +53,8 @@ if(!paymentDetails.amount || !paymentDetails.customerId || !paymentDetails.custo
     params['ORDER_ID'] = 'TEST_'  + new Date().getTime();
     params['CUST_ID'] = 'CUST0011';
     params['TXN_AMOUNT'] = paymentDetails.amount;
-    params['CALLBACK_URL'] = 'https://serene-chamber-31132.herokuapp.com/success';
-    // http://localhost:4000/success
+    params['CALLBACK_URL'] = 'http://localhost:4000/success';
+    //
     params['EMAIL'] = paymentDetails.customerEmail;
     params['MOBILE_NO'] = paymentDetails.customerPhone;
 
@@ -150,14 +150,14 @@ app.post("/callback", (req, res) => {
      // res.redirect("/success")
 });
 
-// app.post('/success', (req, res) => {
-//   if (req.body.STATUS == "TXN_SUCCESS")
-//     res.render('success', {
-//       data: JSON.parse(JSON.stringify(req.body))
-//     })
-//   else
-//     res.render('failure');
-// })
+app.post('/success', (req, res) => {
+  if (req.body.STATUS == "TXN_SUCCESS")
+    res.render('success', {
+      data: JSON.parse(JSON.stringify(req.body))
+    })
+  else
+    res.render('failure');
+})
 
 app.get("/",function(Req,res){
   res.render("index")
