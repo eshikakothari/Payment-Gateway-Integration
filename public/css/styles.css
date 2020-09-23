@@ -96,7 +96,18 @@ right: -5%;
   background-color: #f3e6e3;
 }
 
+/* Footer donate */
 
+.footer1{
+  background-color: #f3e6e3;
+}
+
+/* Donate div */
+
+.donatediv{
+  padding: 2% 7%;
+  position: sticky;
+}
 /* Pricing Section*/
 #pricing{
   padding: 100px;
