@@ -105,8 +105,14 @@ right: -5%;
 /* Donate div */
 
 .donatediv{
-  padding: 2% 7%;
-  position: sticky;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-size: .8rem;
+  padding: 5px;
+  width: 100%;
+  background-color: #f3e6e3;
+  margin-top: 40px;
 }
 /* Pricing Section*/
 #pricing{
