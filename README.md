@@ -1,5 +1,5 @@
-# Payment-Gateway-Integration
-Paytm Payment Gateway Integration using NodeJS.
+# Payment_Gateway_Integration
+Paytm Payment Gateway Integration using **NodeJS**.
 
 I have used Paytm Payment Gateway and integrated it into my server which I created using NodeJs.
 
